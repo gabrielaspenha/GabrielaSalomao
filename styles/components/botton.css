@@ -1,0 +1,30 @@
+/*Botão entrar em contato home page*/
+.contato-home{
+    display: flex;
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza o conteúdo */
+}
+
+.contato-home:hover {
+    background-color: #ee9ca7; /* cor mais forte ao passar o mouse */
+    color: white;
+}
+
+form button {
+    margin-top: 20px;
+    width: 200px;
+    border: 2px solid #ee9ca7; /* Espessura da borda, estilo e cor */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: white; /* Cor de fundo do botão */
+    color: #ee9ca7; /* Cor do texto do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Mostra o cursor de mão ao passar por cima */
+    text-decoration: none;
+}
+
+form button:hover {
+    background-color: #ee9ca7; /* cor mais forte ao passar o mouse */
+    color: white;
+}
+

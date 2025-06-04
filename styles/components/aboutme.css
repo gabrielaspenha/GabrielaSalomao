@@ -1,0 +1,68 @@
+#sobre{
+    background-color: rgba(15, 15, 15, 0.753); /* Cor do fundo */
+    backdrop-filter: blur(10px); /*Efeito de desfoque no fundo*/
+    display: flex;  /* Layout do elemento flexível */
+    align-items: center; /*Alinha os itens*/
+    justify-content: center;  /* Alinha os itens no centro horizontalmente */
+    gap: 5em; /* Espaçamento */
+}
+
+#sobre img{
+    width: 30vw; /* Definição da largura na viewport */
+    border-radius: 1em; /* Bordas arredondadas da imagem */
+}
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2em;
+}
+
+.sobre-mim h1{
+    font-size: 4em;
+}
+
+.sobre-mim p{
+    color: white;
+    opacity: 0.8;
+}
+
+.sobre-mim h2{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.habilidades{
+    display: flex;
+    text-align: left;
+    gap: 10em;
+}
+
+.habilidades ul{
+    align-items: baseline;  /* Alinhamento das habilidades */
+    list-style-type: none;  /* Remoção dos marcadores da lista */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500; 
+    opacity: 0.8;
+}
+
+.habilidades ul li span{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1.2em;
+    transition: 0.1 ease-in-out; /* Transição com uma aceleração "ease-in-out", que começa lenta, acelera, e depois desacelera */
+}
+
+.habilidades ul li span:hover{
+    transform: translateX(10px);  /* Move o elemento para a direita ao longo do eixo X */
+    
+}
+
+.habilidades ul li i{
+    font-size: 1.2em;
+}

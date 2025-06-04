@@ -1,0 +1,65 @@
+#contato{
+    background-color: black;
+    
+}
+
+form, textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+form .nome-completo{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1em;
+}
+
+form .email{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1em;
+}
+
+form textarea {
+    text-align: start; /* melhor pra mensagens longas */
+    font-size: 1.3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: none;
+    resize: vertical; /* permite o redimensionamento vertical */
+    width: 40em;
+    min-height: 150px;
+    margin-top: 1em;
+    
+}
+
+.nome-completo span{
+    font-size: 1.5em;
+}
+
+.email span{
+    font-size: 1.5em;
+}
+
+.caixa-de-mensagem span{
+    font-size: 1.5em;
+}
+
+form input{
+    text-align: start;
+    font-size: 1.3em;
+    padding: 1em;
+    width: 40em;
+    border-radius: 0.5em;
+    border: none;
+}
+
+form input:focus{
+    background-color: white;
+}
+

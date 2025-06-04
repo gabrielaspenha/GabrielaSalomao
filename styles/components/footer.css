@@ -1,0 +1,103 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 100%;
+    padding: 2em 10%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.footer-conteudo {
+    display: flex;
+    margin-top: 1em;
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+    gap: 2em;
+}
+
+.coluna-esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex: 1;
+    min-width: 250px;
+}
+
+.coluna-direita{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    min-width: 250px;
+}
+.coluna-caixa {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+.coluna-direita span, .coluna-esquerda span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.coluna-caixa span:last-child {
+    font: inherit; 
+    color: white;
+}
+
+.rede-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-size: 1em;
+}
+
+.rede-social-icons span a {
+    text-decoration: none;
+    color: #ee9ca7;
+}
+
+.rede-social-icons span a:hover i {
+    color: white;
+}
+
+.footer-copyright {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+}
+
+.copyright-return a {
+    background: white;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+
+.animado-nome {
+    position: relative;
+    display: inline-block;
+    color: #ee9ca7; /* ou outra cor visível */
+    text-decoration: none;
+}
+
+.animado-nome::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background-color: #ee9ca7; /* ou a cor que desejar */
+    transition: width 0.3s ease-in-out;
+}
+
+.animado-nome:hover::after {
+    width: 100%;
+}
