@@ -1,4 +1,4 @@
-# MGabrielaPortifolio
+# GabrielaSalomao Portifolio
 Este é o meu portfólio digital, onde você pode explorar uma seleção de projetos que desenvolvi ao longo da minha jornada. Meu objetivo é compartilhar meu trabalho, demonstrar minhas habilidades e mostrar meu progresso como desenvolvedor(a).
 
 🔧 Tecnologias utilizadas
