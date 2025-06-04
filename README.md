@@ -14,4 +14,5 @@ Este é o meu portfólio digital, onde você pode explorar uma seleção de proj
 💡 Objetivo
 - Este portfólio serve como uma demonstração do meu trabalho.
 
+Projeto
 - [Visite o projeto online](https://gabrielaspenha.github.io/GabrielaSalomao)
